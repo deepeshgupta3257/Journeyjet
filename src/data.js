@@ -34,25 +34,33 @@ export const navItems = [
     id: 2,
     name: "Hotels",
   },
-  {
+  /*{
     id: 3,
     name: "Restaurants",
-  },
+  },*/
   {
     id: 4,
-    name: "Tours",
+    name: "Packages",
   },
   {
     id: 5,
-    name: "Destionations",
+    name: "Destinations",
   },
-  {
+  /*{
     id: 6,
     name: "Activities",
-  },
+  },*/
   {
     id: 7,
     name: "Contact",
+  },
+  {
+    id: 8,
+    name: "Best Deals",
+  },
+  {
+    id: 8,
+    name: "Trip Planner",
   },
 ];
 
@@ -86,32 +94,32 @@ export const searchNavItems = [
 export const destinations = [
   {
     id: 1,
-    name: "Big Sur",
-    location: "California, USA",
+    name: "Nahargarh Fort",
+    location: "Jaipur,Rajasthan",
     image: bigSurImg,
   },
   {
     id: 2,
-    name: "Prescott",
-    location: "Arizona, USA",
+    name: "Hawa Mahal",
+    location: "Jaipur,Rajasthan",
     image: prescottImg,
   },
   {
     id: 3,
-    name: "Fort Mayers",
-    location: "Florida, USA",
+    name: "Jantar Mantar, Jaipur",
+    location: "Jaipur,Rajasthan",
     image: fortMayersImg,
   },
   {
     id: 4,
-    name: "Tucson",
-    location: "Arizona, USA",
+    name: "Albert Hall Museum",
+    location: "Jaipur,Rajasthan",
     image: tucsonImg,
   },
   {
     id: 5,
-    name: "St. Joseph",
-    location: "Michigan, USA",
+    name: "The City Palace",
+    location: "Jaipur,Rajasthan",
     image: stJosephImg,
   },
 ];
@@ -119,29 +127,29 @@ export const destinations = [
 export const hotelsRestaurants = [
   {
     id: 1,
-    name: "Monastero Santa Rosa Hotel & Spa",
-    location: "Salerno, Italy",
+    name: "Rambag Palace Jaipur ",
+    location: "Jaipur,Rajasthan",
     image: monasteroImg,
     ratingImage: ratingFive,
   },
   {
     id: 2,
-    name: "Grand Hotel Tremezzo",
-    location: "Lake Como, Italy",
+    name: "Lemon Tree Hotels Jaipur",
+    location: "Jaipur,Rajasthan",
     image: grandHotelImg,
-    ratingImage: ratingThree,
+    ratingImage: ratingFour,
   },
   {
     id: 3,
-    name: "The Oberoi Udaivilas, Udaipur",
-    location: "Udaipur, India",
+    name: "ITC Rajputana, a Luxury Collection Hotel, Jaipur",
+    location: "Jaipur,Rajasthan",
     image: oberoiImg,
     ratingImage: ratingFour,
   },
   {
     id: 4,
-    name: "AKA Beverly Hills",
-    location: "Los Angeles, United States",
+    name: "The Lalit Jaipur",
+    location: "Jaipur,Rajasthan",
     image: beverlyHillsImg,
     ratingImage: ratingThree,
   },
@@ -151,20 +159,20 @@ export const travelItems = [
   {
     id: 1,
     image: eastVillageImg,
-    location: "East Village Ice Cream Crawl",
-    text: "We will stop at five different world-class ice cream shops on this 1.5 mile 1.5 hour tour.At each ice cream store we'll explore the story behind the business and see what makes the ice cream unique as you savor every…",
-    calendarText: "Today",
-    userText: "Maria Philips",
-    commentsText: "2",
+    location: "Pink City Jaipur ",
+    text: "Engage yourself in the Beauty of the pink of the pink city glamour.Explore forts like Amer & Jaigard fort and make your trip fantastic also visit biological park of jaipur to see various animals",
+    calendarText: "4 Days Ago",
+    userText: "Dev",
+    
   },
   {
     id: 2,
     image: brooklynImg,
-    location: "Brooklyn Bridge cinematic photo walk",
-    text: "This experience takes place at the Brooklyn Bridge Park and Brooklyn Bridge, but I’m always open to capture clients at different locations upon request for an additional charge. ",
+    location: "Lake city Udaipur",
+    text: "Udaipur is set around a series of artificial lakes. It's known for its lavish royal residences, including the City Palace, which overlooks Lake Pichola. The City Palace is a monumental complex of 11 palaces, courtyards, and gardens. It's famed for its intricate peacock mosaics",
     calendarText: "Today",
-    userText: "James Calzoni",
-    commentsText: "17",
+    userText: "Dolly",
+    
   },
 ];
 
@@ -194,17 +202,17 @@ export const activities = [
 export const footerNav = [
   {
     id: 1,
-    title: "About",
-    links: ["About Us", "Features", "News", "Menu"],
+    title: "Know Us",
+    links: ["About Us", "Disclaimer","Privacy Policy", ""],
   },
   {
     id: 2,
-    title: "Company",
-    links: ["Why 2rism", "Partner With Us", "FAQ", "Blog"],
+    title: "Support",
+    links: ["Account", "Support Center", "Feedback", "Contact Us"],
   },
   {
     id: 3,
-    title: "Support",
-    links: ["Account", "Support Center", "Feedback", "Contact Us"],
+    title: "",
+    links: ["", ""," ", ""],
   },
 ];

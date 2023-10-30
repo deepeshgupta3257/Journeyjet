@@ -57,11 +57,8 @@ const AboutUs = () => {
               my: 4,
             }}
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            a sapien justo. Nulla facilisis tristique imperdiet. Nullam a
-            placerat odio. Sed in ex augue. Aliquam porta consectetur lorem sit
-            amet ultrices. Class aptent taciti sociosqu ad litora torquent per
-            conubia nostra, per inceptos himenaeos.
+            We are here to provide you the facility to meet new people and explore the world and meet new people plan trips and explore new places.Book Hotels,Flight,Train Tickets at lowest price.Take our Booking Packages for Extra Discounts.
+            
           </Typography>
           <SecondaryButton text="Read more" />
         </Box>

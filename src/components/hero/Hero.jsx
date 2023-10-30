@@ -49,9 +49,12 @@ const Hero = () => {
             mb: 4,
           }}
         >
-          Discover the most engaging places
+        Find Your Travelmate & Plan Your Trip 
         </Typography>
-        <MainButton text="Discover on 3D Globe" iconImg={btnGlobalIcon} />
+        <MainButton text="FIND TRAVELMATE" iconImg={btnGlobalIcon} />
+        <br>
+        </br>
+        <MainButton text="Find Similar People" iconImg={btnGlobalIcon} />
         <SearchNav />
       </Box>
     </Container>

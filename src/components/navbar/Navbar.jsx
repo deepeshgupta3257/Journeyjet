@@ -6,8 +6,8 @@ import { Box, Drawer, Typography } from "@mui/material";
 import Link from "@mui/material/Link";
 import MenuIcon from "@mui/icons-material/Menu";
 
-import logo from "../../assets/main/logo.svg";
-import userAvatar from "../../assets/main/user-avatar.svg";
+import logo from "../../assets/main/fotimg.jpg";
+import userAvatar from "../../assets/main/ME.jpg";
 import { navItems } from "../../data.js";
 
 const Navbar = () => {
@@ -80,7 +80,7 @@ const Navbar = () => {
                 opacity: "0.5",
               }}
             >
-              Holla,
+              Hi ,
             </Typography>
             <Typography
               sx={{
@@ -90,7 +90,7 @@ const Navbar = () => {
                 color: "#fff",
               }}
             >
-              Ales Nesetril
+              Dev
             </Typography>
           </Box>
           <img src={userAvatar} alt="avatar" style={{ cursor: "pointer" }} />
@@ -145,7 +145,7 @@ const Navbar = () => {
                     opacity: "0.5",
                   }}
                 >
-                  Holla,
+                  Hi,
                 </Typography>
                 <Typography
                   sx={{
@@ -155,7 +155,7 @@ const Navbar = () => {
                     color: "#fff",
                   }}
                 >
-                  Ales Nesetril
+                 Dev
                 </Typography>
               </Box>
               <img
@@ -205,7 +205,7 @@ const Navbar = () => {
                 transform: "translateX(-50%)",
               }}
             >
-              &#169; 2rism
+              &#169; JetSet Journeys
             </Typography>
           </Box>
         </Drawer>

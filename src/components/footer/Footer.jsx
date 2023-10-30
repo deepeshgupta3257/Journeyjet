@@ -2,7 +2,7 @@ import React from "react";
 
 import { Box, Container, Link, Typography } from "@mui/material";
 
-import logo from "../../assets/footer/logo.svg";
+import logo from "../../assets/footer/fotimg.jpg";
 import facebookIcon from "../../assets/footer/facebook-icon.svg";
 import twitterIcon from "../../assets/footer/twitter-icon.svg";
 import instagramIcon from "../../assets/footer/instagram-icon.svg";
@@ -74,8 +74,7 @@ const Footer = () => {
               },
             }}
           >
-            We always make our customers happy by providing as many choises as
-            possible
+           We are Here to provide with with facility to engage you 
           </Typography>
           <Box
             sx={{
@@ -183,7 +182,7 @@ const Footer = () => {
               },
             }}
           >
-            Subscribe on our destination review newsletters
+            Subscribe our Newsletter
           </Typography>
           <Box
             sx={{
